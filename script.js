@@ -14,3 +14,5 @@ document.getElementById('form__centre__login').addEventListener('submit', functi
     document.querySelector('.form__centre__login').style.display = 'none'
     document.querySelector('.registerRef__centre__login').style.display = 'none'
 });
+
+function newFunction(){}
