@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img class="logotypeImg" src="./images/logotype.svg" alt="логотип">
+    </header>
+    <main>
+        <div class="login">
+            <div class="centre__login">
+                <div class="welcome__centre__login">Welcome !</div>
+                <div class="sign__centre__login">
+                    <div class="up__sign__centre__login">Sign in to</div>
+                    <div class="down__sign__centre__login">Lorem Ipsum is simply</div>
+                </div>
+                <form class="form__centre__login" id="form__centre__login">
+                    <div class="nameCont__login">
+                        <div class="nameText__login">User name</div>
+                        <label class="nameInputBlock__login">
+                            <input required minlength="4" maxlength="10" type="text" class="nameInputMain__login" placeholder="Enter your user name">
+                        </label>
+                    </div>
+                    <div class="passCont__login">
+                        <div class="nameText__login">Password</div>
+                        <label class="passInputBlock__login">
+                            <input type="password" class="passInputMain__login" placeholder="Enter your Password" required minlength="6" maxlength="16">
+                            <a onclick="changePassText('passInputMain__login')" class="glassPass__login">
+                                <img src="./images/glasPass.svg" alt="показать пароль" class="glassPassImg__login">
+                            </a>
+                        </label>
+                    </div>
+                    <div class="remCont__login">
+                        <div class="lineRem__login">
+                            <input type="checkbox" id="remCheck__login">
+                            <label class="labelCheck__login" for="remCheck__login">Remember me</label>
+                        </div>
+                        <a class="forgotPassRef__login" href="#">Forgot Password ?</a>
+                    </div>
+                    <input type="submit" class="subCont__login" value="Login">
+                </form>
+                <div class="registerRef__centre__login">Don’y have an Account ?  <a class="register" href="#">Register</a></div>
+            </div>
+        </div>
+        <img class="image__main" src="./images/discus.svg" alt="дискуссия">
+    </main>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
